@@ -4,7 +4,7 @@ from random import randint
 from random import choice
 
 
-def input():
+def input2():
     test = [1, 2, 3, 4, 5, 6]
     return test
 
@@ -34,8 +34,8 @@ def output():
 
 def main():
     print(generate())
-    print(input())
-    print(compare(input(), generate()))
+    print(input2())
+    print(compare(input2(), generate()))
 
 
 if __name__ == "__main__":
